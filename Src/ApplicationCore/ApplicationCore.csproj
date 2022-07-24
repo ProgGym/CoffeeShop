@@ -9,10 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entites\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Services\" />
-    <Folder Include="Specifications\" />
+    <Compile Remove="Entites\**" />
+    <Compile Remove="Services\**" />
+    <Compile Remove="Specifications\**" />
+    <EmbeddedResource Remove="Entites\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <EmbeddedResource Remove="Specifications\**" />
+    <None Remove="Entites\**" />
+    <None Remove="Services\**" />
+    <None Remove="Specifications\**" />
   </ItemGroup>
 
 </Project>
