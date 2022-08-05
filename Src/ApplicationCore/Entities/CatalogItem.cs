@@ -10,6 +10,7 @@ public class CatalogItem
     public int CatalogTypeId { get; private set; }
     public CatalogType CatalogType { get; private set; }
 
+
     public CatalogItem(string name, string description, decimal price,string pictureUri, int catalogItemId)
     {
         Name = name;

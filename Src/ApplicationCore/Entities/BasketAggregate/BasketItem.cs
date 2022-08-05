@@ -6,6 +6,8 @@ public class BasketItem
     public decimal AmountPrice { get; private set; }
     public int Quantity { get; private set; }
     public int CatalogItemId { get; private set; }
+    public CatalogItem CatalogItem { get; private set; }
+
     public BasketItem(int catalogItemId, decimal amountPrice, int quantity)
     {
         CatalogItemId = catalogItemId;
