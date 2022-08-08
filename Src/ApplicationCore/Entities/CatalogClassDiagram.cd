@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ProgGym.CoffeeShop.ApplicationCore.Entities.CatalogItem">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <Members>
+      <Method Name="CatalogItem" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAwAgAgAAAAAAAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Entities\CatalogItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CatalogType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProgGym.CoffeeShop.ApplicationCore.Entities.CatalogType">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <Members>
+      <Method Name="CatalogType" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Entities\CatalogType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProgGym.CoffeeShop.ApplicationCore.Entities.BasketAggregate.BasketItem">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAKAAEAAAAAgAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Entities\BasketAggregate\BasketItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CatalogItem" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
