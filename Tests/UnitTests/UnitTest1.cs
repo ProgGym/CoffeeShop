@@ -7,6 +7,7 @@ namespace ProgGym.CoffeeShop.UnitTests
         [SetUp]
         public void Setup()
         {
+
         }
 
         [Test]
